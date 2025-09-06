@@ -22,6 +22,9 @@ A responsive landing page for an online learning platform showcasing courses, te
 - Mobile-friendly navigation menu
 - Professional course showcase layout
 
+## Deployed URL
+🚀 **Live Demo**: [View Coursera Landing Page](https://pallavi2527.github.io/OIBSIP_web-development_task1/)
+
 ## How to Run
 Simply open `index.html` in any web browser. No installation needed.
 
