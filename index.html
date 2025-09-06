@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Landing Page Coursera</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./images/logo_1.png" alt="Coursera Logo"></a> 
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul style="color:black; margin-left:60px;">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Largest Collection of Online Courses</h1>
+            <p class="text-box-info">
+                Learn new skills online with top instructors from leading universities and companies like Google, IBM, and Stanford. 
+                Join millions of learners around the world and upgrade your career with industry-recognized certifications.
+            </p>
+            <a class="hero-btn" href="">Visit Us to Know More</a>
+        </div>
+    </section>
+
+    <!--Course-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Choose from beginner-friendly introductions, intermediate skill-building, and advanced certifications that prepare you for real-world jobs.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Beginner</h3>
+                <p>Start your learning journey with easy-to-understand courses. No prior experience needed — perfect for students or career switchers.</p>
+            </div>
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Build on your foundation with project-based courses and certifications to grow your skills and boost your resume.</p>
+            </div>
+            <div class="course-col">
+                <h3>Advanced</h3>
+                <p>Master advanced topics and gain industry-ready skills. Learn with hands-on projects and expert mentorship.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Campus-->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Join a global learning community with students from 190+ countries. Learn online at your own pace, anytime and anywhere.</p>
+    </section>
+
+    <!--Facilities-->
+    <section class="facilities">
+        <h1>Popular Short Courses</h1>
+        <p>Boost your skills in just one day with these highly-rated short programs:</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/python.png" alt="Python Course">
+                <h3>Programming for Everybody (Python)</h3>
+                <p>Learn Python basics — the most popular programming language — with no prior coding experience required.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/social.png" alt="Social Media Course">
+                <h3>Introduction to Social Media Marketing</h3>
+                <p>Understand how to create, manage, and grow social media campaigns that make an impact.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/aws.png" alt="AWS Course">
+                <h3>AWS Cloud Technical Essentials</h3>
+                <p>Get started with cloud computing on AWS. Learn how cloud infrastructure works in real businesses.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials-->
+    <section class="testimonials">
+        <h1>What Our Students Say</h1>
+        <p>Thousands of learners worldwide have achieved their career goals with us. Here’s what they say:</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg" alt="Student photo 1">
+                <div>
+                    <p>“This platform helped me learn Python from scratch and land my first internship as a data analyst.”</p>
+                    <h3>Priya Sharma</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="images/user2.jpg" alt="Student photo 2">
+                <div>
+                    <p>“The AWS Cloud course gave me the confidence to apply for cloud engineer roles. Highly recommend!”</p>
+                    <h3>Rahul Mehta</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Call to Action-->
+    <section class="cta">
+        <h1>Enroll in Our Courses<br>Learn Anytime, Anywhere</h1>
+        <a href="" class="hero-btn">Contact Us</a>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We partner with leading universities and companies to provide world-class online education. Learn at your own pace and unlock new opportunities.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by Pallavi Chavan</p>
+    </section>
+
+    <script>
+        function showMenu() {
+            document.getElementById("navLinks").style.right = "0";
+        }
+        function hideMenu() {
+            document.getElementById("navLinks").style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
